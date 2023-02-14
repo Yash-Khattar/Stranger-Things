@@ -1,5 +1,4 @@
 # Stranger-Things
-Link: https://htmlpreview.github.io/?https://github.com/Yash-Khattar/Stranger-Things/blob/main/Stranger_things/index.html
 
 Mock Video :
 
