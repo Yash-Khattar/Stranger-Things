@@ -34,6 +34,10 @@ h3{
     color: white;
    
 }
+
+.hawkins{
+  color: aqua;
+}
 .hawkins:hover{
   font-size: 0px;
 }
@@ -41,15 +45,20 @@ h3{
 .hawkins:hover::after{
   content: attr(data-hover);
   font-size: 3.01rem;
-  color: red;
+  color:  red;
 }
 
 .credits{
   font-weight: 600;
   font-size: 20px;
   margin: 60px auto 0px auto ;
+  
 }
 
+.vecna{
+color: aqua;
+
+}
 .vecna:hover{
   font-size: 0px;
 }
@@ -58,6 +67,7 @@ h3{
   content: attr(data-hover);
   font-size: 1.5rem;
   color: red;
+  font-family: 'Rock Salt', cursive;
 }
 
 .castImage{
@@ -106,7 +116,6 @@ h3{
   border-radius: 50%;
   z-index: -5;
 }
-
 /* body::before{
     content: "";
     position: absolute;
