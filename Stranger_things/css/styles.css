@@ -1,0 +1,120 @@
+body {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+   }
+
+.intro{
+  text-align: left;
+  margin: 80px 80px;
+  font-weight: 900;
+}
+
+button{
+  margin: 20px;
+  padding: 20px;
+}
+h3{
+    /* text-align: center; */
+    color: white;
+    line-height: 1.6;
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin: 6px;
+}
+
+.ST_logo{
+
+   width: 35rem;
+   display: block;
+   margin: 10rem auto;
+}
+
+.headText{
+    font-size: 3rem;
+    color: white;
+   
+}
+.hawkins:hover{
+  font-size: 0px;
+}
+
+.hawkins:hover::after{
+  content: attr(data-hover);
+  font-size: 3.01rem;
+  color: red;
+}
+
+.credits{
+  font-weight: 600;
+  font-size: 20px;
+  margin: 60px auto 0px auto ;
+}
+
+.vecna:hover{
+  font-size: 0px;
+}
+
+.vecna:hover::after{
+  content: attr(data-hover);
+  font-size: 1.5rem;
+  color: red;
+}
+
+.castImage{
+  height: 115px;
+  width: 115px;
+
+}
+
+.castImage:hover{
+  scale: 1.2;
+}
+
+.cast-info{
+  margin: 10rem;
+}
+
+.cast{
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  margin: 20px;
+}
+
+.my_audio{
+  filter: invert(100%);
+}
+
+.container {
+  position: relative;
+  height: 355vh;
+  width: 100%;
+  background-color:		#101010;
+  text-align: center;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.magic {
+  position: absolute;
+  top: calc(50% - 12rem);
+  left: calc(50% - 12rem);
+  width: 15rem;
+  height: 15rem;
+  background: center center no-repeat fixed;
+  background-size: cover;
+  border-radius: 50%;
+  z-index: -5;
+}
+
+/* body::before{
+    content: "";
+    position: absolute;
+    background: url("../assets/bg-st.svg") no-repeat center center/cover;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 350vh;
+    opacity: 0.9;
+} */
